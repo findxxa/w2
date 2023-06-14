@@ -1,0 +1,20 @@
+from mmdet.datasets import Objects365V1Dataset, Objects365V2Dataset
+
+
+def _create_objects365_json(json_name):
+    images = [{
+        'file_name': 'fake1.jpg',
+        'height': 800,
+        'width': 800,
+        'id': 0
+    }, {
+        'file_name': 'fake2.jpg',
+        'height': 800,
+        'width': 800,
+        'id': 1
+    }, {
+        'file_name': 'patch16/objects365_v2_00908726.jpg',
+        'height': 800,
+        'width': 800,
+        'id': 2
+    }]
